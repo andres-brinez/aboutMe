@@ -183,8 +183,10 @@ body {
 
 .skills {
     display: flex; 
-    justify-content: space-between; 
-    margin: 50px 20px; 
+    justify-content: space-around; 
+    margin: 50px auto;
+    padding-left: 100px; 
+    /* border: solid 1px red ; */
 }
 .skills-column {
     flex: 1;
