@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --background-color: #06050b;
+    --colorText: #93a9b7;
+    --colorTitle: #ffffff;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -164,4 +169,21 @@ body {
     color: #0056b3;
     transform: translateY(-3px);
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.about-me {
+    background-color: var(--background-color);
+    text-align: center; /* Centra el contenido */
+    padding: 50px 20px; /* Margen superior e inferior */
+}
+.about-me h2 {
+    font-size: 36px; /* Tamaño del subtítulo */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+.about-description {
+    color: var(--colorText);
+    font-size: 18px; /* Tamaño del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    max-width: 800px; /* Ancho máximo para el párrafo */
+    margin: 0 auto; /* Centra el párrafo */
 }
